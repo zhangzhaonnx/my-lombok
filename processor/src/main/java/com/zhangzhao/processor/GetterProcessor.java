@@ -26,7 +26,7 @@ import javax.lang.model.element.Element;
 import javax.lang.model.element.TypeElement;
 import javax.tools.Diagnostic;
 
-@AutoService(Processor.class)
+//@AutoService(Processor.class)
 @SupportedAnnotationTypes("com.zhangzhao.annotation.Getter")
 public class GetterProcessor extends AbstractProcessor {
 
