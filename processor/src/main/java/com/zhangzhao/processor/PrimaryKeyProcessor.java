@@ -27,7 +27,6 @@ import javax.lang.model.type.MirroredTypeException;
 //@AutoService(Processor.class)
 public class PrimaryKeyProcessor extends AbstractProcessor {
 
-
   private Messager messager;
   private JavacTrees trees;
   private TreeMaker treeMaker;
